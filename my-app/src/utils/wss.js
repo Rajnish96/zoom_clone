@@ -4,7 +4,8 @@ import store from "../store/store";
 import * as webRTCHandler from "./webRTCHandler";
 import { appendNewMessageToChatHistory } from "./directMessages";
 
-const SERVER = "http://localhost:5002";
+// const SERVER = "http://localhost:5002";
+const SERVER = "https://zoom-clone-mqkl.onrender.com";
 
 let socket = null;
 
